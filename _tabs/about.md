@@ -4,5 +4,5 @@ icon: fas fa-info
 order: 4
 ---
 
+[cv](../pdfs/resume.pdf)
 
-> **Note**: Add Markdown syntax content to file `_tabs/about.md` and it will show up on this page.
