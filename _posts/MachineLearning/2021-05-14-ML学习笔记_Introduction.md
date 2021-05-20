@@ -59,7 +59,7 @@ mermaid: true
 ## 模型评估指标
 
 - T,F: 分类正确与否
-- R,N: 预测结果
+- P,N: 预测结果
 
 **Regression**
 
