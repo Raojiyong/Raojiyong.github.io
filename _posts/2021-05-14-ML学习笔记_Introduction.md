@@ -1,10 +1,10 @@
 ---
-title: ML-Introduction
+usemathjax: true
+title: ML Introduction
 author: raojiyong
 date: 2021-05-14 15:00:00 +0800
 categories: ["2021", "05"]
 tags: notes
-usemathjax: true
 ---
 
 ## 机器学习
