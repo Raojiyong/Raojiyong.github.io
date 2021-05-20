@@ -4,6 +4,8 @@ author: raojiyong
 date: 2021-05-14 15:00:00 +0800
 categories: ["2021", "05"]
 tags: notes
+math: true
+mermaid: true
 ---
 
 ## 机器学习
