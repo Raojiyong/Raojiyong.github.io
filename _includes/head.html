@@ -64,21 +64,29 @@
 
   <!-- JavaScripts -->
   
-  {% if page.usemathjax %}
-  
-  <script type="text/javascript" async
-  
-    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-	
-     </script>
-	 
-  {% endif %}
-  
   <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
 
   <script defer
     src="https://cdn.jsdelivr.net/combine/npm/popper.js@1.15.0,npm/bootstrap@4/dist/js/bootstrap.min.js"></script>
 
   {% include js-selector.html %}
+  
+  <!-- Mathjax -->
+  <script type="text/x-mathjax-config">
+  
+    MathJax.Hub.Config({
+  
+      tex2jax: {
+	  
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+		
+        inlineMath: [['$','$']]
+		
+      }
+    });
+	
+  </script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
 </head>
