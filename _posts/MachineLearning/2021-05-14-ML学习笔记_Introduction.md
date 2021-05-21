@@ -91,7 +91,24 @@ mermaid: true
 
 - One query  $r\to$ One permutation $\pi$
 - One query  $r\to$  retrieved documents $R(r)$
-- 
+- precision: precision= $P$ =$\frac{|C(r)\cap R(r)|}{|R(r)|}$
+  - precision$@k$
+    - $|R(r)|=k$
+    - $\frac{\sum_{i<k}l(\pi(t))}k$
+- recall: $recall =\frac{|C(r)\cap R(r)|}{|R(r)|}$
+  - recall$@k$,$|R(r)|=k$
+- AP (AveP, Average precision): AP $=\frac{\sum_{k=1}^{|C(r)|}P(@k)}{|R(r)|}$
+- mAP (Mean average precision): MAP = $=\frac{\sum_{q=1}^{Q}AP(q)}Q$
+- CG (Cumulative Gain): CG$@k=\sum_{i=1}^k rel(i)$
+- DCG (Discounted cumulative gain): DCG$@k=\sum_{i=1}^k rel(i)\eta(i)$
+  - 折扣因子$\eta(i)$:$\frac 1{log(i+1)}$
+- IDCG (Ideal DCG): $IDCG@k=max_\pi DCG@k(\pi)$
+- nDCG (Normalized DCG): $IDCG@k=\frac{DCG_p}{{IDCG_p}}$
+- RR (reciprocal rank): $rank_i$第一个正确答案的排名
+- MRR (Mean reciprocal rank): $MRR=\frac 1{|Q|}\sum_{i=1}^{|Q|}\frac 1{rank_i}$
+- Cascade Models: 用户在位置 k 需求满足的概率$PP(k)=\prod_{i=1}^{k-1}(1-R(i))R(k)$
+  - 该文档满足需求的概率: $R(t)=\frac{2^{rel(t)}-1}{2^{l_{max}}}$
+- ERR (Expected reciprocal rank): 用户需求满足时停止位置的倒数的期望 $ERR=\sum_{r=1}^n\frac 1rPP_r$
 
 ## 多分类
 
