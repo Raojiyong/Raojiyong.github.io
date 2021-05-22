@@ -91,7 +91,7 @@ mermaid: true
 
 - One query  $r\to$ One permutation $\pi$
 - One query  $r\to$  retrieved documents $R(r)$
-- precision: precision= $P$ =$\frac{|C(r)\cap R(r)|}{|R(r)|}$
+- precision: precision= $P$ =$\frac{\vert C(r)\cap R(r)\vert}{\vert R(r)\vert}$
   - precision$@k$
     - $\vert R(r)\vert=k$
     - $\frac{\sum_{i<k}l(\pi(t))}k$
