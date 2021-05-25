@@ -1,0 +1,34 @@
+[
+  
+  {
+    "title": "Anaconda3安装Pytorch",
+    "url": "/posts/Anaconda%E5%AE%89%E8%A3%85Pytorch/",
+    "categories": "2021, 05",
+    "tags": "tutorial",
+    "date": "2021-05-06 17:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "引言在Win10下，通过在Anaconda3安装Pytorch，版本号为1.8.1。需要使用NVIDIA显卡，安装CUDA 11.1 和cuDNN。具体包含Anaconda3下载安装，同时给了常见出错问题急解决方法。Anaconda3安装我是在 anaconda3 官方网站上下载的，然后从上往下下载最新的版本。下载好之后要注意安装问题，首先所针对用户，我选择的是针对该电脑的全部用户  Just Me  For all users之后是环境变量勾选，我没有勾选，系统推荐也是不勾选，之后再系统环境变量中添加就行，官方给的理由是会干扰到其他软件，没添加的话就没办法在cmd中运行。安装完成之后可..."
+  },
+  
+  {
+    "title": "Jekyll搭建Gitpages",
+    "url": "/posts/Jekyll%E6%90%AD%E5%BB%BAgitpages/",
+    "categories": "2021, 05",
+    "tags": "tutorial",
+    "date": "2021-05-04 21:20:30 +0800",
+    
+
+
+
+
+
+    "snippet": "GitPages + Jekyll我使用的是Jekyll-theme-chirpy模板，直接拿来。因为有Git的基础，用起来还是比较方便的。另外，gitpages本身的主题比较少而且不是很好看，所以用了第三方的，第三方还是很多的。这个模板需要注意的就是，要另外创建新branch，注意./github/workflows/pages-deply.yml、tools/deploy.sh文件的branch名，还有基础配置文件_config.yml的更改。Markdown基础在写blog的时候，也学了一点markdown基础。这是加粗，斜体，链接百度，复选框  复选插入代码int x，插入代码块..."
+  }
+  
+]
+
