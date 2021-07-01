@@ -3,7 +3,7 @@ title: ML LinearModel
 author: raojiyong
 date: 2021-05-17 15:00:00 +0800
 categories: ["2021","05"]
-tags: notes,MachineLearning
+tags: notes MachineLearning
 math: true
 mermaid: true
 ---
