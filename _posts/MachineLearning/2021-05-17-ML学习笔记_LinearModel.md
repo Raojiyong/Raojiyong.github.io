@@ -3,7 +3,7 @@ title: ML LinearModel
 author: raojiyong
 date: 2021-05-17 15:00:00 +0800
 categories: ["2021","05"]
-tags: notes
+tags: notes,MachineLearning
 math: true
 mermaid: true
 ---
@@ -51,7 +51,7 @@ $$
 
 ## LDA
 
-- 给定训练集数据，设法将样例投影到一条直线上，使得咏雷样例投影点尽可能接近，异类投影点尽可能远
+- 给定训练集数据，设法将样例投影到一条直线上，使得同类样例投影点尽可能接近，异类投影点尽可能远
 - 协方差矩阵: $\sum=\frac 1{n-1}(X-\mu I)(X-\mu I)^T$
   - $\sum_{ij}=\sigma(x_i,x_j)$
   - 投影后: $\omega^T\sum\omega$

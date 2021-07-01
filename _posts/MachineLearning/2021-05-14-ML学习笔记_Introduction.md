@@ -3,7 +3,7 @@ title: ML Introduction
 author: raojiyong
 date: 2021-05-14 15:00:00 +0800
 categories: ["2021", "05"]
-tags: notes
+tags: notes,MachineLearning
 math: true
 mermaid: true
 ---
