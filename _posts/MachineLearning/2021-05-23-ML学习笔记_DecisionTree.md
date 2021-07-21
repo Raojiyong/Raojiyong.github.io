@@ -5,7 +5,7 @@ date: 2021-05-23 15:00:00 +0800
 categories: ["2021","05"]
 tags: [notes, Machine Learning]
 math: true
-mermaid: true1
+mermaid: true
 ---
 
 ### 决策树基本算法
