@@ -45,9 +45,9 @@ mermaid: true
   - $\omega_x:$ 每个样本的权重
   - $\rho=\frac{\sum_{x\in\tilde{D}}\omega_x}{\sum_{x\in D}\omega_x}$ 对属性 $a$ ，$\rho$ 表示无缺失样本所占比例
   - $\tilde{p_k}=\frac{\sum_{x\in\tilde{D}_k}\omega_x}{\sum_{x\in D}\omega_x}$ 对属性 $a$，$\tilde{p_k}$ 表示无缺失值样本中第 $k$ 类的占比
-  - $\tilde{r_v}=\frac{\sum_{x\in\tilde{D}^v}\omega_x}{\sum_{x\in D}\omega_x}$ $\tilde{r_v}$表示无缺失值样本中在属性 $a$ 上取值 $a^v$ 的占比
+  - $\tilde{r_v}=\frac{\sum_{x\in\tilde{D}^v}\omega_x}{\sum_{x\in D}\omega_x}$ 其中 $\tilde{r_v}$ 表示无缺失值样本中在属性 $a$ 上取值 $a^v$ 的占比
   - $\mathrm{Ent}(\tilde{D})=-\sum_{k=1}^{\vert Y\vert}\tilde{p_k}log_2\tilde{p_k}$
-  - $\mathrm{Gain}(D,a)=\rho*\mathrm{Gain}(\tilde{D},a)=\rho*\Bigl(\mathrm{Ent}(\tilde{D})-\sum_{v=1}^V\tilde{r_v}\mathrm{Ent}(\tilde{D^v})\Bigr)$
+  - $\mathrm{Gain}(D,a)=\rho\ast\mathrm{Gain}(\tilde{D},a)=\rho\ast\Bigl(\mathrm{Ent}(\tilde{D})-\sum_{v=1}^V\tilde{r_v}\mathrm{Ent}(\tilde{D^v})\Bigr)$
 
 ### 多变量决策树
 
