@@ -51,8 +51,8 @@ mermaid: true
 
 #### 平均法
 
-- 简单平均法: $H(x)=\frac12\sum_{i=1}^Th_i(x)$
-- 加权平均法: $H(x)=\frac1T\sum_{i=1}^T\omega_ih_i(x)$
+- 简单平均法: $H(x)=\frac1T\sum_{i=1}^Th_i(x)$
+- 加权平均法: $H(x)= \sum_{i=1}^T\omega_ih_i(x)$
 
 #### 投票法
 
