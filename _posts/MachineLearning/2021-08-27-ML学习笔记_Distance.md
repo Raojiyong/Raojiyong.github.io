@@ -17,7 +17,7 @@ mermaid: true
 #### 有序距离
 
 - 闵科夫斯基距离: $l=(\sum_{i=1}^n\vert x_i-y_i\vert^p)^\frac1p$
-  - 切比雪夫距离: $l_{\infin}=\max_{i=1}^n\vert x_i-y_i\vert$
+  - 切比雪夫距离: $l_{\infty}=\max_{i=1}^n\vert x_i-y_i\vert$
   - 欧几里得距离: $l_2=\sqrt{\sum_{i=1}^n\vert x_i-y_i\vert^2}$
   - 曼哈顿距离: $l_1=\sum_{i=1}^n\vert x_i-y_i\vert$
   - 加权闵科夫斯基距离: $l=(\sum_{i=1}^n\omega_i\vert x_i-y_i\vert^p)^\frac1p$
@@ -76,13 +76,14 @@ Neighbourhood Component Analysis 近邻成分分析
 ### 领域知识
 
 必连约束 $\mathcal{M}$,勿连约束 $\mathcal{C}$
-$$
-\begin{align}
+
+$$\begin{equation}
+\begin{aligned}
 \min_{M}&\sum_{(x_i,x_j)\in\mathcal{M}}\Vert x_i-x_j\Vert_M^2 \notag \\
 s.t. &\sum_{(x_i,x_k)\in\mathcal{C}}\Vert x_i-x_k\Vert_m \geq1 \notag\\
 &M\succeq 0
-\end{align}
-$$
+\end{aligned}
+\end{equation}$$
 
 #### LMNN
 
@@ -93,12 +94,15 @@ Large Margin Nearest Neighbors
   - 目标邻居：最近的同类别样本
 
   - 入侵样本：最近中的非同类样本
-    $$
-    \begin{align}
-    \min\ast M&\sum_{i,j\in N\ast i}d(x_i,x_j)+\sum_{i,j,l}\xi_{ijl} \notag \\
-    s.t.&\forall_{i,j\in N_k,l,yl\neq y_i}d(x_i,d_j)+1\leq d(x_i,x_l)+\xi_{ijl} \notag \\
-    &\xi_{ijl}\geq0 \notag \\
-    &M \succeq0 \notag \\
-    \end{align}
-    $$
+
+$$
+\begin{align}
+\min\ast M&\sum_{i,j\in N\ast i}d(x_i,x_j)+\sum_{i,j,l}\xi_{ijl} \notag \\
+s.t.&\forall_{i,j\in N_k,l,yl\neq y_i}d(x_i,d_j)+1\leq d(x_i,x_l)+\xi_{ijl} \notag \\
+&\xi_{ijl}\geq0 \notag \\
+&M \succeq0 \notag \\
+\end{align}
+$$
+
+
 
