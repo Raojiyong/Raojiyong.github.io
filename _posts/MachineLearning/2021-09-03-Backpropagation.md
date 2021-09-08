@@ -51,7 +51,11 @@ The cross entropy error:
 $$
 E=-\sum_{i=1}^{nclass}(t_i\log(y_i)+(1-t_i)\log(1-y_i))
 $$
+
+
 where $\text{t}$ is the target vector, $\text{y}$ is the output vector. Outputs are computed by applying the logistic function to the weighted sums of the hidden layer activations, $s$,
+
+
 $$
 y_i=\frac1{1+e^{-s_i}} \\
 s_i=\sum_{j=1}h_j\omega_{ji} \\
