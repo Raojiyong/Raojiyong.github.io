@@ -2,7 +2,11 @@
 
 
 
-<html lang="en-US" 
+
+
+
+
+<html lang="en" 
   
 >
 
@@ -16,11 +20,10 @@
 
   
 
-    <!-- i18n for timeago.js -->
-    <meta name="layout-lang" content="en-US">
-    <meta name="day-prompt" content="d ago">
-    <meta name="hour-prompt" content="hr ago">
-    <meta name="minute-prompt" content="min ago">
+    <!-- i18n for `_javascript/utils/timeago.js` -->
+    <meta name="day-prompt" content="days ago">
+    <meta name="hour-prompt" content="hours ago">
+    <meta name="minute-prompt" content="minutes ago">
     <meta name="justnow-prompt" content="just now">
 
     
@@ -30,14 +33,14 @@
   
 
   <!-- Begin Jekyll SEO tag v2.7.1 -->
-<meta name="generator" content="Jekyll v4.2.0" />
+<meta name="generator" content="Jekyll v4.2.1" />
 <meta property="og:title" content="oj输入输出" />
 <meta name="author" content="raojiyong" />
-<meta property="og:locale" content="en_US" />
+<meta property="og:locale" content="en" />
 <meta name="description" content="A+B" />
 <meta property="og:description" content="A+B" />
-<link rel="canonical" href="https://raojiyong.github.io/posts/oj%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA/" />
-<meta property="og:url" content="https://raojiyong.github.io/posts/oj%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA/" />
+<link rel="canonical" href="http://localhost:4000/posts/oj%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA/" />
+<meta property="og:url" content="http://localhost:4000/posts/oj%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA/" />
 <meta property="og:site_name" content="Jiyong Rao" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2021-05-10T16:00:00+08:00" />
@@ -47,7 +50,7 @@
 <meta name="twitter:creator" content="@raojiyong" />
 <meta name="google-site-verification" content="google_meta_tag_verification" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","headline":"oj输入输出","dateModified":"2021-05-17T12:17:21+08:00","datePublished":"2021-05-10T16:00:00+08:00","url":"https://raojiyong.github.io/posts/oj%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA/","author":{"@type":"Person","name":"raojiyong"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://raojiyong.github.io/posts/oj%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA/"},"description":"A+B","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","headline":"oj输入输出","dateModified":"2021-05-17T12:17:21+08:00","datePublished":"2021-05-10T16:00:00+08:00","url":"http://localhost:4000/posts/oj%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA/","author":{"@type":"Person","name":"raojiyong"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/oj%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA/"},"description":"A+B","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -120,12 +123,14 @@
   The Side Bar
 -->
 
-<div id="sidebar" class="d-flex flex-column align-items-end" lang="">
+<div id="sidebar" class="d-flex flex-column align-items-end" lang="en">
   <div class="profile-wrapper text-center">
     <div id="avatar">
       <a href="/" alt="avatar" class="mx-auto">
         
-        <img src="/pic.jpg" alt="avatar" onerror="this.style.display='none'">
+          
+          <img src="/pic.jpg" alt="avatar" onerror="this.style.display='none'">
+        
       </a>
     </div>
 
@@ -158,7 +163,7 @@
     
     <li class="nav-item">
       <a href="/tags/" class="nav-link">
-        <i class="fa-fw fas fa-tags ml-xl-3 mr-xl-3 unloaded"></i>
+        <i class="fa-fw fas fa-tag ml-xl-3 mr-xl-3 unloaded"></i>
         
 
         <span>TAGS</span>
@@ -176,7 +181,7 @@
     
     <li class="nav-item">
       <a href="/about/" class="nav-link">
-        <i class="fa-fw fas fa-info ml-xl-3 mr-xl-3 unloaded"></i>
+        <i class="fa-fw fas fa-info-circle ml-xl-3 mr-xl-3 unloaded"></i>
         
 
         <span>ABOUT</span>
@@ -186,7 +191,7 @@
 
   </ul> <!-- ul.nav.flex-column -->
 
-  <div class="sidebar-bottom mt-auto d-flex flex-wrap justify-content-center">
+  <div class="sidebar-bottom mt-auto d-flex flex-wrap justify-content-center align-items-center">
 
     
       
@@ -195,7 +200,7 @@
       <a href="https://github.com/raojiyong" aria-label="github"
         class="order-3"
         target="_blank" rel="noopener">
-        <i class="fab fa-github-alt"></i>
+        <i class="fab fa-github"></i>
       </a>
       
 
@@ -422,10 +427,6 @@
 
         
 
-          
-
-        
-
       
 
         
@@ -494,12 +495,16 @@
 
 
 
-<!-- Add lang-badge for code snippets -->
+<!-- Add header for code snippets -->
 
 
 
 
 <!-- return -->
+
+
+
+
 
 <div class="row">
 
@@ -584,7 +589,8 @@
 
 <!-- return element -->
 <span class="readtime" data-toggle="tooltip" data-placement="bottom"
-  title="681 words">3 min read</span>
+  title="681 words">3 min
+     read</span>
 
 
           <!-- page views -->
@@ -602,7 +608,16 @@
 
 <p>输入描述：</p>
 
-<div lang="plaintext" class="language-plaintext highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span text-data="
+
+
+
+
+    Text
+  
+"><i class="fa-fw fas fa-code small"></i></span>
+      <button aria-label="copy" title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 </pre></td><td class="rouge-code"><pre>输入数据有多组，每组表示一组输入数据
 每行不定有n个整数，空格隔开
@@ -610,13 +625,31 @@
 
 <p>输出描述：</p>
 
-<div lang="plaintext" class="language-plaintext highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span text-data="
+
+
+
+
+    Text
+  
+"><i class="fa-fw fas fa-code small"></i></span>
+      <button aria-label="copy" title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre>魅族输出求和结果
 </pre></td></tr></tbody></table></code></div></div>
 
 <p>代码</p>
 
-<div lang="plaintext" class="language-plaintext highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span text-data="
+
+
+
+
+    Text
+  
+"><i class="fa-fw fas fa-code small"></i></span>
+      <button aria-label="copy" title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -652,7 +685,16 @@ int main(){
 
 <p>输入数据，在遇到结束符2(space、tab、enter)就结束，且不将结束符存入标量在。<strong>注意最后一个enter也在缓冲区中</strong>，例如：</p>
 
-<div lang="plaintext" class="language-plaintext highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span text-data="
+
+
+
+
+    Text
+  
+"><i class="fa-fw fas fa-code small"></i></span>
+      <button aria-label="copy" title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -688,7 +730,16 @@ int main(){
 
 <p>输入描述</p>
 
-<div lang="plaintext" class="language-plaintext highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span text-data="
+
+
+
+
+    Text
+  
+"><i class="fa-fw fas fa-code small"></i></span>
+      <button aria-label="copy" title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -702,7 +753,16 @@ nowcoder
 
 <p>输出描述</p>
 
-<div lang="plaintext" class="language-plaintext highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span text-data="
+
+
+
+
+    Text
+  
+"><i class="fa-fw fas fa-code small"></i></span>
+      <button aria-label="copy" title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -714,7 +774,16 @@ nowcoder
 
 <p>代码</p>
 
-<div lang="plaintext" class="language-plaintext highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span text-data="
+
+
+
+
+    Text
+  
+"><i class="fa-fw fas fa-code small"></i></span>
+      <button aria-label="copy" title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -754,7 +823,16 @@ int main(){
 
 <p>输入描述</p>
 
-<div lang="plaintext" class="language-plaintext highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span text-data="
+
+
+
+
+    Text
+  
+"><i class="fa-fw fas fa-code small"></i></span>
+      <button aria-label="copy" title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -768,7 +846,16 @@ nowcoder
 
 <p>输出描述</p>
 
-<div lang="plaintext" class="language-plaintext highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span text-data="
+
+
+
+
+    Text
+  
+"><i class="fa-fw fas fa-code small"></i></span>
+      <button aria-label="copy" title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -780,7 +867,16 @@ nowcoder
 
 <p>代码</p>
 
-<div lang="plaintext" class="language-plaintext highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span text-data="
+
+
+
+
+    Text
+  
+"><i class="fa-fw fas fa-code small"></i></span>
+      <button aria-label="copy" title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -852,7 +948,12 @@ int main(){
           d-flex justify-content-between align-items-center mt-3 pt-5 pb-2">
           <div class="license-wrapper">
           
-            <span class="text-muted small">-- Missing configuration options! --</span>
+            
+            This post is licensed under 
+            <a href="https://creativecommons.org/licenses/by/4.0/">
+              CC BY 4.0
+            </a>
+             by the author.
           
           </div>
 
@@ -868,27 +969,28 @@ int main(){
 
     
       
-        <a href="https://twitter.com/intent/tweet?text=oj输入输出 - Jiyong Rao&url=https://raojiyong.github.io/posts/oj%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA/" data-toggle="tooltip" data-placement="top"
+        <a href="https://twitter.com/intent/tweet?text=oj输入输出 - Jiyong Rao&url=http://localhost:4000/posts/oj%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA/" data-toggle="tooltip" data-placement="top"
           title="Twitter" target="_blank" rel="noopener" aria-label="Twitter">
           <i class="fa-fw fab fa-twitter"></i>
         </a>
     
       
-        <a href="https://www.facebook.com/sharer/sharer.php?title=oj输入输出 - Jiyong Rao&u=https://raojiyong.github.io/posts/oj%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA/" data-toggle="tooltip" data-placement="top"
+        <a href="https://www.facebook.com/sharer/sharer.php?title=oj输入输出 - Jiyong Rao&u=http://localhost:4000/posts/oj%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA/" data-toggle="tooltip" data-placement="top"
           title="Facebook" target="_blank" rel="noopener" aria-label="Facebook">
           <i class="fa-fw fab fa-facebook-square"></i>
         </a>
     
       
-        <a href="https://telegram.me/share?text=oj输入输出 - Jiyong Rao&url=https://raojiyong.github.io/posts/oj%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA/" data-toggle="tooltip" data-placement="top"
+        <a href="https://telegram.me/share?text=oj输入输出 - Jiyong Rao&url=http://localhost:4000/posts/oj%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA/" data-toggle="tooltip" data-placement="top"
           title="Telegram" target="_blank" rel="noopener" aria-label="Telegram">
           <i class="fa-fw fab fa-telegram"></i>
         </a>
     
 
-    <i class="fa-fw fas fa-link small" onclick="copyLink('', '')"
+    <i id="copy-link" class="fa-fw fas fa-link small"
         data-toggle="tooltip" data-placement="top"
-        title="">
+        title="Copy link"
+        title-succeed="Link copied successfully!">
     </i>
 
   </span>
@@ -911,6 +1013,10 @@ int main(){
   <!--
   The Pannel on right side (Desktop views)
 -->
+
+
+
+
 
 <div id="panel-wrapper" class="col-xl-3 pl-2 text-muted topbar-down">
 
@@ -1537,14 +1643,14 @@ int eraseOverlapIntervals(vector&lt;vector&lt;int&gt;&gt;&amp; intervals) {
 <div class="post-navigation d-flex justify-content-between">
   
   <a href="/posts/%E6%9A%91%E6%9C%9F%E5%AE%9E%E4%B9%A0%E7%AC%94%E8%AF%95/" class="btn btn-outline-primary"
-    prompt="previous">
+    prompt="Older">
     <p>暑期实习笔试</p>
   </a>
   
 
   
   <a href="/posts/ML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0_Introduction/" class="btn btn-outline-primary"
-    prompt="next">
+    prompt="Newer">
     <p>ML Introduction</p>
   </a>
   
@@ -1573,7 +1679,8 @@ int eraseOverlapIntervals(vector&lt;vector&lt;int&gt;&gt;&amp; intervals) {
         © 2021
         <a href="https://twitter.com/JiyongRao">raojiyong</a>.
         
-        <span class="text-muted">-- Missing configuration options! --</span>
+        <span data-toggle="tooltip" data-placement="top"
+          title="Except where otherwise noted, the blog posts on this site are licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author.">Some rights reserved.</span>
         
       </p>
     </div>
@@ -1803,14 +1910,14 @@ int eraseOverlapIntervals(vector&lt;vector&lt;int&gt;&gt;&amp; intervals) {
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.7.3/dest/simple-jekyll-search.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js"></script>
 
 <script>
 SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('search-results'),
   json: '/assets/js/data/search.json',
-  searchResultTemplate: '<div class="pl-1 pr-1 pl-sm-2 pr-sm-2 pl-lg-4 pr-lg-4 pl-xl-0 pr-xl-0">  <a href="https://raojiyong.github.io{url}">{title}</a>  <div class="post-meta d-flex flex-column flex-sm-row text-muted mt-1 mb-1">    {categories}    {tags}  </div>  <p>{snippet}</p></div>',
+  searchResultTemplate: '<div class="pl-1 pr-1 pl-sm-2 pr-sm-2 pl-lg-4 pr-lg-4 pl-xl-0 pr-xl-0">  <a href="http://localhost:4000{url}">{title}</a>  <div class="post-meta d-flex flex-column flex-sm-row text-muted mt-1 mb-1">    {categories}    {tags}  </div>  <p>{snippet}</p></div>',
   noResultsText: '<p class="mt-5">Oops! No result founds.</p>',
   templateMiddleware: function(prop, value, template) {
     if (prop === 'categories') {
@@ -1845,7 +1952,7 @@ SimpleJekyllSearch({
 
 
   <!-- image lazy-loading & popup -->
-  <script src="https://cdn.jsdelivr.net/combine/npm/lozad/dist/lozad.min.js,npm/magnific-popup@1/dist/jquery.magnific-popup.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/combine/npm/lozad/dist/lozad.min.js,npm/magnific-popup@1/dist/jquery.magnific-popup.min.js,npm/clipboard@2/dist/clipboard.min.js"></script>
 
 
 

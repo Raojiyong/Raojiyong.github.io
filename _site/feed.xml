@@ -1,18 +1,18 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>https://raojiyong.github.io/</id>
+  <id>http://localhost:4000/</id>
   <title>Jiyong Rao</title>
   <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
-  <updated>2021-10-03T22:58:37+08:00</updated>
+  <updated>2021-10-04T14:55:53+08:00</updated>
   <author>
     <name>raojiyong</name>
-    <uri>https://raojiyong.github.io/</uri>
+    <uri>http://localhost:4000/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="https://raojiyong.github.io/feed.xml"/>
-  <link rel="alternate" type="text/html" hreflang="en-US"
-    href="https://raojiyong.github.io/"/>
-  <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator>
   <rights> © 2021 raojiyong </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
@@ -21,13 +21,13 @@
   
   <entry>
     <title>Notes on backpropagation</title>
-    <link href="https://raojiyong.github.io/posts/Backpropagation/" rel="alternate" type="text/html" title="Notes on backpropagation" />
+    <link href="http://localhost:4000/posts/Backpropagation/" rel="alternate" type="text/html" title="Notes on backpropagation" />
     <published>2021-09-03T19:00:00+08:00</published>
   
     <updated>2021-09-08T14:29:14+08:00</updated>
   
-    <id>https://raojiyong.github.io/posts/Backpropagation/</id>
-    <content src="https://raojiyong.github.io/posts/Backpropagation/" />
+    <id>http://localhost:4000/posts/Backpropagation/</id>
+    <content src="http://localhost:4000/posts/Backpropagation/" />
     <author>
       <name>raojiyong</name>
     </author>
@@ -74,13 +74,13 @@ its backpropagation process is below:
   
   <entry>
     <title>ML Distance</title>
-    <link href="https://raojiyong.github.io/posts/ML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0_Distance/" rel="alternate" type="text/html" title="ML Distance" />
+    <link href="http://localhost:4000/posts/ML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0_Distance/" rel="alternate" type="text/html" title="ML Distance" />
     <published>2021-08-27T19:00:00+08:00</published>
   
     <updated>2021-09-07T23:13:03+08:00</updated>
   
-    <id>https://raojiyong.github.io/posts/ML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0_Distance/</id>
-    <content src="https://raojiyong.github.io/posts/ML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0_Distance/" />
+    <id>http://localhost:4000/posts/ML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0_Distance/</id>
+    <content src="http://localhost:4000/posts/ML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0_Distance/" />
     <author>
       <name>raojiyong</name>
     </author>
@@ -129,13 +129,13 @@ its backpropagation process is below:
   
   <entry>
     <title>ML Dimension Reduction</title>
-    <link href="https://raojiyong.github.io/posts/ML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0_DimensionReduction/" rel="alternate" type="text/html" title="ML Dimension Reduction" />
+    <link href="http://localhost:4000/posts/ML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0_DimensionReduction/" rel="alternate" type="text/html" title="ML Dimension Reduction" />
     <published>2021-08-17T15:00:00+08:00</published>
   
     <updated>2021-08-17T15:00:00+08:00</updated>
   
-    <id>https://raojiyong.github.io/posts/ML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0_DimensionReduction/</id>
-    <content src="https://raojiyong.github.io/posts/ML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0_DimensionReduction/" />
+    <id>http://localhost:4000/posts/ML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0_DimensionReduction/</id>
+    <content src="http://localhost:4000/posts/ML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0_DimensionReduction/" />
     <author>
       <name>raojiyong</name>
     </author>
@@ -187,13 +187,13 @@ Multiple Dimensional Scaling, 多维放缩
   
   <entry>
     <title>ML Clustering</title>
-    <link href="https://raojiyong.github.io/posts/ML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0_Clustering/" rel="alternate" type="text/html" title="ML Clustering" />
+    <link href="http://localhost:4000/posts/ML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0_Clustering/" rel="alternate" type="text/html" title="ML Clustering" />
     <published>2021-08-04T15:00:00+08:00</published>
   
     <updated>2021-08-04T15:00:00+08:00</updated>
   
-    <id>https://raojiyong.github.io/posts/ML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0_Clustering/</id>
-    <content src="https://raojiyong.github.io/posts/ML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0_Clustering/" />
+    <id>http://localhost:4000/posts/ML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0_Clustering/</id>
+    <content src="http://localhost:4000/posts/ML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0_Clustering/" />
     <author>
       <name>raojiyong</name>
     </author>
@@ -232,13 +232,13 @@ Multiple Dimensional Scaling, 多维放缩
   
   <entry>
     <title>ML EnsembleLearning</title>
-    <link href="https://raojiyong.github.io/posts/ML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0_EnsembleLearning/" rel="alternate" type="text/html" title="ML EnsembleLearning" />
+    <link href="http://localhost:4000/posts/ML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0_EnsembleLearning/" rel="alternate" type="text/html" title="ML EnsembleLearning" />
     <published>2021-08-01T09:00:00+08:00</published>
   
     <updated>2021-08-02T16:48:20+08:00</updated>
   
-    <id>https://raojiyong.github.io/posts/ML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0_EnsembleLearning/</id>
-    <content src="https://raojiyong.github.io/posts/ML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0_EnsembleLearning/" />
+    <id>http://localhost:4000/posts/ML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0_EnsembleLearning/</id>
+    <content src="http://localhost:4000/posts/ML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0_EnsembleLearning/" />
     <author>
       <name>raojiyong</name>
     </author>
