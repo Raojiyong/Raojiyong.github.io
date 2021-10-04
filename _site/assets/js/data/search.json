@@ -1,0 +1,214 @@
+[
+  
+  {
+    "title": "Notes on backpropagation",
+    "url": "/posts/Backpropagation/",
+    "categories": "2021, 09",
+    "tags": "notes, nn",
+    "date": "2021-09-03 19:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "Some common loss function backpropagation1. SVMhinge loss\\[L_i=\\sum_{j\\neq y_i}\\max(0,\\omega_j^Tx_i-\\omega_{y_i}^Tx_i+\\Delta)\\]SVM full loss:\\[L=\\frac1N\\sum_i\\sum_{j\\neq y_i}[\\max(0,f(x_i,W)_j-f(x_i;W)_{y_i}+\\Delta)]+\\lambda\\sum_k\\sum_lW_{k,l}^2 \\\\\\]where $W_{k,l}^2$ is all square elements of $W$..."
+  },
+  
+  {
+    "title": "ML Distance",
+    "url": "/posts/ML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0_Distance/",
+    "categories": "2021, 08",
+    "tags": "machine learning, notes",
+    "date": "2021-08-27 19:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "距离  正定性  对称性  三角不等式有序距离  闵科夫斯基距离: $l=(\\sum_{i=1}^n\\vert x_i-y_i\\vert^p)^\\frac1p$          切比雪夫距离: $l_{\\infty}=\\max_{i=1}^n\\vert x_i-y_i\\vert$      欧几里得距离: $l_2=\\sqrt{\\sum_{i=1}^n\\vert x_i-y_i\\vert^2}$      曼哈顿距离: $l_1=\\sum_{i=1}^n\\vert x_i-y_i\\vert$      加权闵科夫斯基距离: $l=(\\sum_{i=1}^n\\omega_i\\vert x..."
+  },
+  
+  {
+    "title": "ML Dimension Reduction",
+    "url": "/posts/ML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0_DimensionReduction/",
+    "categories": "2021, 08",
+    "tags": "notes, Machine Learning",
+    "date": "2021-08-17 15:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "线性降维  维数灾难 curse of dimensionality          高维空间样本稀疏      计算内积难      MDSMultiple Dimensional Scaling, 多维放缩  样本间距离在低维空间保持  算法          由距离矩阵 $D$ 求内积矩阵: $b_{ij}=-\\frac12(D_{ij}^2-D_{i\\ast}^2-D_{\\ast j}^2+D_{\\ast\\ast}^2)$      特征值分解:$B=V\\Lambda V^T$, 非零特征值构成 $\\Lambda_\\ast=diag\\lambda_1,\\lambda_2,\\cd..."
+  },
+  
+  {
+    "title": "ML Clustering",
+    "url": "/posts/ML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0_Clustering/",
+    "categories": "2021, 08",
+    "tags": "notes, Machine Learning",
+    "date": "2021-08-04 15:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "性能度量  性能度量，有效性指标 validity index  外部指标：与某个参考模型比较          簇划分：$\\mathcal{C}=C_1,C_2,\\cdots,C_k$，参考模型簇划分 $\\mathcal{C^}={C_1^,C_2^,\\cdots,C_s^},\\lambda,\\lambda^*$ 分别为两者的簇标记向量，定义                  $a=\\vert\\text{SS}\\vert,\\text{SS}={(x_i,x_j)\\ \\vert\\ \\lambda_i=\\lambda_j,\\lambda_i^=\\lambda^_j,i\\lt j}$    ..."
+  },
+  
+  {
+    "title": "ML EnsembleLearning",
+    "url": "/posts/ML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0_EnsembleLearning/",
+    "categories": "2021, 08",
+    "tags": "notes, Machine Learning",
+    "date": "2021-08-01 09:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "集成学习  个体学习器          同质：基学习器，基学习算法      异质：组件学习器      准确性，多样性        学习器结合可能带来的好处          统计：学习任务假设空间大，多个假设在训练集上达到同等性能，使用单学习器可能因误选而导致泛化性能不佳      计算：降低陷入糟糕局部极小点的风险      表示：某些学习任务的真实假设可能不在当前算法所考虑的假设空间中，使用多学习器可能学得较好的近似      序列化方法  Boosting          Train a weak learner $h_t$ from distribution $D_t$..."
+  },
+  
+  {
+    "title": "ML Bayes",
+    "url": "/posts/ML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0_Bayes/",
+    "categories": "2021, 07",
+    "tags": "notes, Machine Learning",
+    "date": "2021-07-25 15:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "Bayesian decision theory                   定义      最小化分类错误率                  loss      $\\lambda_{ij}$      $[i=j]$              Expected loss      $R(c_i\\vert x)=\\sum_{j=1}^N\\lambda_{ij}P(c_j\\vert x)$      $1-P(c\\vert x)$              Bayes optimal classifier      $h^\\ast(x)=\\arg\\min_{c\\in Y}R(c\\..."
+  },
+  
+  {
+    "title": "ML SVM",
+    "url": "/posts/ML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0_SVM/",
+    "categories": "2021, 07",
+    "tags": "notes, Machine Learning",
+    "date": "2021-07-20 20:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "SVM 基本型      划分超平面:  $\\omega^Tx+b=0$                  点到超平面的距离: $\\frac{\\vert \\omega^Tx+b\\vert}{\\Vert \\omega\\Vert}$\\(\\begin{cases}\\omega^Tx+b \\ge y_i,&amp;amp; y_i=+1 \\\\\\omega^Tx+b \\le y_i,&amp;amp; y_i=-1 \\\\\\end{cases}\\)                    支持向量（support vector）：使上式成立的样本点                    间隔（marg..."
+  },
+  
+  {
+    "title": "ML DecisionTree",
+    "url": "/posts/ML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0_DecisionTree/",
+    "categories": "2021, 05",
+    "tags": "notes, Machine Learning",
+    "date": "2021-05-23 15:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "决策树基本算法  当前节点包含样本全部同类：标记为某类  当前样本属性值为空/取值相同：标记为最多一类  属性划分选择  为属性每个值分配一个结点继续执行算法          若其属性值上为空则标记为当前最多一类      递归过程，分治划分选择            指标名称      指标      辅助函数      例子      remark                  信息增益(Info gain)      $\\mathrm{Gain}(D,a)=\\mathrm{Ent}(D)-\\sum_{v=1}^V\\frac{\\vert D^v\\vert}{\\vert D\\ve..."
+  },
+  
+  {
+    "title": "ML LinearModel",
+    "url": "/posts/ML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0_LinearModel/",
+    "categories": "2021, 05",
+    "tags": "notes, Machine Learning",
+    "date": "2021-05-17 15:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "多元线性回归  $f(x)=\\omega^T\\omega+b$  决策平面：$f(x;\\omega)=0$          有向距离: $\\gamma=\\frac{f(x;\\omega)}{\\vert\\omega\\vert}$        最小二乘法(使均方误差最小)          $\\hat\\omega^*=arg\\ min_{\\hat\\omega}(y-X\\hat\\omega)^T(y-X\\hat\\omega)=(X^TX)^{-1}X^Ty$        广义线性模型：$y=g^{-1}(\\omega^Tx+b$)，其中单调可微函数 $g(\\cdot)$ 称为联系函数对数..."
+  },
+  
+  {
+    "title": "ML Introduction",
+    "url": "/posts/ML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0_Introduction/",
+    "categories": "2021, 05",
+    "tags": "notes, Machine Learning",
+    "date": "2021-05-14 15:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "机器学习  机器学习要素          模型      学习准则      优化算法        数据集：$D=x_1,x_2,…,x_m$          通常假设全体样本服从一个未知分布$\\mathcal{D}$,且采样$i.i.d$        归纳偏好          No Free Lunch Theorem      Occam’s Razor      Ugly Ducking Theorem            all vectors are assumed to be column vectors        $N$ number of input, $..."
+  },
+  
+  {
+    "title": "oj输入输出",
+    "url": "/posts/oj%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA/",
+    "categories": "2021, 05",
+    "tags": "writing",
+    "date": "2021-05-10 16:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "A+B输入描述：输入数据有多组，每组表示一组输入数据每行不定有n个整数，空格隔开输出描述：魅族输出求和结果代码#include &amp;lt;bits/stdc++.h&amp;gt;using namespace std;int main(){	int n;	int sum=0;	while(cin&amp;gt;&amp;gt;n){		sum+=n;		if(cin.get()==&#39;\\n&#39;){			cout&amp;lt;&amp;lt;sum&amp;lt;&amp;lt;endl;			sum=0;		}	}	return 0;}cin、cin.get()、c..."
+  },
+  
+  {
+    "title": "暑期实习笔试",
+    "url": "/posts/%E6%9A%91%E6%9C%9F%E5%AE%9E%E4%B9%A0%E7%AC%94%E8%AF%95/",
+    "categories": "2021, 05",
+    "tags": "writing",
+    "date": "2021-05-08 15:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "网易开发岗题目描述给定多个区间，计算让这些区间互不重叠所需要移除区间的最少个数。起止相连不算重叠。代码int eraseOverlapIntervals(vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt;&amp;amp; intervals) {	if (intervals.empty()) {		return 0;	}	int n = intervals.size();	sort(intervals.begin(), intervals.end(), [](vector&amp;lt;int&amp;gt;&amp;amp; a, vect..."
+  },
+  
+  {
+    "title": "Anaconda3安装Pytorch",
+    "url": "/posts/Anaconda%E5%AE%89%E8%A3%85Pytorch/",
+    "categories": "2021, 05",
+    "tags": "tutorial",
+    "date": "2021-05-06 17:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "引言在Win10下，通过在Anaconda3安装Pytorch，版本号为1.8.1。需要使用NVIDIA显卡，安装CUDA 11.1 和cuDNN。具体包含Anaconda3下载安装，同时给了常见出错问题急解决方法。Anaconda3安装我是在 anaconda3 官方网站上下载的，然后从上往下下载最新的版本。下载好之后要注意安装问题，首先所针对用户，我选择的是针对该电脑的全部用户  Just Me  For all users之后是环境变量勾选，我没有勾选，系统推荐也是不勾选，之后再系统环境变量中添加就行，官方给的理由是会干扰到其他软件，没添加的话就没办法在cmd中运行。安装完成之后可..."
+  },
+  
+  {
+    "title": "Jekyll搭建Gitpages",
+    "url": "/posts/Jekyll%E6%90%AD%E5%BB%BAgitpages/",
+    "categories": "2021, 05",
+    "tags": "tutorial",
+    "date": "2021-05-04 21:20:30 +0800",
+    
+
+
+
+
+
+    "snippet": "GitPages + Jekyll我使用的是Jekyll-theme-chirpy模板，直接拿来。因为有Git的基础，用起来还是比较方便的。另外，gitpages本身的主题比较少而且不是很好看，所以用了第三方的，第三方还是很多的。这个模板需要注意的就是，要另外创建新branch，注意./github/workflows/pages-deply.yml、tools/deploy.sh文件的branch名，还有基础配置文件_config.yml的更改。Markdown基础在写blog的时候，也学了一点markdown基础。这是加粗，斜体，链接百度，复选框  复选插入代码int x，插入代码块..."
+  }
+  
+]
+

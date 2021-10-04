@@ -1,6 +1,9 @@
 # hidden files
 .*
-!.github
+!.git*
+!.editorconfig
+!.nojekyll
+!.travis.yml
 
 # bundler cache
 _site
@@ -9,7 +12,6 @@ Gemfile.lock
 
 # rubygem
 *.gem
-
 # npm dependencies
 node_modules
 package-lock.json
