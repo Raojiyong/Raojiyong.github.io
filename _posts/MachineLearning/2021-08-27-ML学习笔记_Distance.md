@@ -3,7 +3,7 @@ title: ML Distance
 author: raojiyong
 date: 2021-08-27 19:00:00 +0800
 categories: ["2021","08"]
-tags: [machine learning,notes]
+tags: [Machine Learning,notes]
 math: true
 mermaid: true
 ---
