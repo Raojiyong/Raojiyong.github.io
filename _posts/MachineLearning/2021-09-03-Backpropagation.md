@@ -57,8 +57,10 @@ where $\text{t}$ is the target vector, $\text{y}$ is the output vector. Outputs 
 
 
 $$
+\begin{align}
 y_i=\frac1{1+e^{-s_i}} \\
 s_i=\sum_{j=1}h_j\omega_{ji} \\
+\end{align}
 $$
 
 
@@ -112,7 +114,7 @@ $$
 and the cross entropy error function for multi-class output is:
 
 $$
-E=-\sum_i^{nclass}t_i\log(y_i)E=-\sum_i^{nclass}t_i\log(y_i)
+E=-\sum_i^{nclass}t_i\log(y_i)
 $$
 
 $t$ is the target vector. Thus, computing the gradient yields:
